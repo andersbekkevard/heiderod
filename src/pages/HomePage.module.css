@@ -1,0 +1,17 @@
+.intro {
+  padding: 4rem 0;
+  background-color: var(--color-background);
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}

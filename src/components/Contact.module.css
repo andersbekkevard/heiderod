@@ -1,0 +1,18 @@
+.contact {
+  padding: 4rem 0;
+  background-color: var(--color-background);
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+.info a {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
