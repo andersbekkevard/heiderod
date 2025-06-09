@@ -8,6 +8,13 @@ const photos = [
 		description: 'Vibrant close-up of blooming flowers',
 	},
 	{
+		src: '/bilder2025/robert-steingjerdet.jpg',
+		alt: 'blomst 1 closeup',
+		description: 'Photo: Jan Robert Løwengreen',
+	},
+
+
+	{
 		src: '/bilder2025/eplekart.jpg',
 		alt: 'eplekart',
 		description: 'Artistic aerial view of apple orchard',
