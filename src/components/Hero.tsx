@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
 
 function Hero() {
+	const baseUrl = import.meta.env.BASE_URL;
 	const images = [
-		'/bilder2025/gaard-luft-1.jpg',
-		'/bilder2025/gaard-luft-2.jpg',
-		'/bilder2025/gaard-luft-3.jpg',
-		'/bilder2025/gaard1.jpg',
-		'/bilder2025/robert-steingjerdet.jpg',
+		`${baseUrl}bilder2025/gaard-luft-1.jpg`,
+		`${baseUrl}bilder2025/gaard-luft-2.jpg`,
+		`${baseUrl}bilder2025/gaard-luft-3.jpg`,
+		`${baseUrl}bilder2025/gaard1.jpg`,
+		`${baseUrl}bilder2025/robert-steingjerdet.jpg`,
 	];
 	const heroImage = images[Math.floor(Math.random() * images.length)];
 	return (

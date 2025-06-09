@@ -3,16 +3,17 @@ import React from 'react';
 import styles from './About.module.css';
 
 function About() {
+	const baseUrl = import.meta.env.BASE_URL;
 	return (
 		<section id="about" className={styles.about}>
 			<div className="container">
-				<div className={styles.imageWrapper}>
-					<img
-						src="/bilder2025/blomst-2-closeup.jpg"
-						alt="Heiderød Farm kitchen garden"
-						className={styles.image}
-					/>
-				</div>
+			<div className={styles.imageWrapper}>
+				<img
+					src={`${baseUrl}bilder2025/blomst-2-closeup.jpg`}
+					alt="Heiderød Farm kitchen garden"
+					className={styles.image}
+				/>
+			</div>
 				<div className={styles.content}>
 					<h2>About Our Farm</h2>
 					<p>

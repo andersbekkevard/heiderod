@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './OurStoryPage.module.css';
 
+
+const baseUrl = import.meta.env.BASE_URL;
+
 function OurStoryPage() {
 	return (
 		<section id="our-story" className={styles.story}>
@@ -8,8 +11,8 @@ function OurStoryPage() {
 				<h2>Our Story</h2>
 				<div className={styles.block}>
 					<div className={styles.imageWrapper}>
-							<img
-							src="/bilder2025/gaard1.jpg"
+						<img
+							src={`${baseUrl}bilder2025/gaard1.jpg`}
 							alt="Photo of the farm from the stone-fence"
 							className={styles.image}
 						/>
@@ -31,8 +34,8 @@ function OurStoryPage() {
 						</p>
 					</div>
 					<div className={styles.imageWrapper}>
-							<img
-							src="/bilder2025/kjoekkenhage-1.jpg"
+						<img
+							src={`${baseUrl}bilder2025/kjoekkenhage-1.jpg`}
 							alt="Tilled fields and planted kitchen garden"
 							className={styles.image}
 						/>
@@ -40,8 +43,8 @@ function OurStoryPage() {
 				</div>
 				<div className={styles.block}>
 					<div className={styles.imageWrapper}>
-							<img
-							src="/bilder2025/kjoekkenhage-2.jpg"
+						<img
+							src={`${baseUrl}bilder2025/kjoekkenhage-2.jpg`}
 							alt="Heiderød Farm kitchen garden"
 							className={styles.image}
 						/>
@@ -63,8 +66,8 @@ function OurStoryPage() {
 						</p>
 					</div>
 					<div className={styles.imageWrapper}>
-							<img
-							src="/bilder2025/kirsebaer-ute.jpg"
+						<img
+							src={`${baseUrl}bilder2025/kirsebaer-ute.jpg`}
 							alt="Community enjoying the farm's harvest"
 							className={styles.image}
 						/>

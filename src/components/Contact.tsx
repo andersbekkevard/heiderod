@@ -2,12 +2,13 @@ import React from 'react';
 import styles from './Contact.module.css';
 
 function Contact() {
+	const baseUrl = import.meta.env.BASE_URL;
 	return (
 		<section id="contact" className={styles.contact}>
 			<div className="container">
 				<div className={styles.imageWrapper}>
 					<img
-						src="/bilder2025/ved.jpg"
+						src={`${baseUrl}bilder2025/ved.jpg`}
 						alt="Wood-chopping"
 						className={styles.image}
 					/>

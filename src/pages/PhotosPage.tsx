@@ -1,46 +1,45 @@
 import React from 'react';
 import styles from './PhotosPage.module.css';
 
+const baseUrl = import.meta.env.BASE_URL;
 const photos = [
 	{
-		src: '/bilder2025/blomst-1-closeup.jpg',
+		src: `${baseUrl}bilder2025/blomst-1-closeup.jpg`,
 		alt: 'blomst 1 closeup',
 		description: 'Vibrant close-up of blooming flowers',
 	},
 	{
-		src: '/bilder2025/robert-steingjerdet.jpg',
-		alt: 'blomst 1 closeup',
+		src: `${baseUrl}bilder2025/robert-steingjerdet.jpg`,
+		alt: 'robert steingjerdet',
 		description: 'Photo: Jan Robert Løwengreen',
 	},
-
-
 	{
-		src: '/bilder2025/eplekart.jpg',
+		src: `${baseUrl}bilder2025/eplekart.jpg`,
 		alt: 'eplekart',
 		description: 'Artistic aerial view of apple orchard',
 	},
 	{
-		src: '/bilder2025/kirsebaer-inne.jpg',
+		src: `${baseUrl}bilder2025/kirsebaer-inne.jpg`,
 		alt: 'kirsebaer inne',
 		description: 'Delicate cherries displayed indoors',
 	},
 	{
-		src: '/bilder2025/kongle.jpg',
+		src: `${baseUrl}bilder2025/kongle.jpg`,
 		alt: 'kongle',
 		description: 'Rustic pine cone resting on wood',
 	},
 	{
-		src: '/bilder2025/laave-vinter.jpg',
+		src: `${baseUrl}bilder2025/laave-vinter.jpg`,
 		alt: 'laave vinter',
 		description: 'Peaceful winter scene with a barn',
 	},
 	{
-		src: '/bilder2025/skudd.jpg',
+		src: `${baseUrl}bilder2025/skudd.jpg`,
 		alt: 'skudd',
 		description: 'Fresh green shoots emerging from soil',
 	},
 	{
-		src: '/bilder2025/steingjerde.jpg',
+		src: `${baseUrl}bilder2025/steingjerde.jpg`,
 		alt: 'steingjerde',
 		description: 'Sunlit stone fence in the pasture',
 	},
