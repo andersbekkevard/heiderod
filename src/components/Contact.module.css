@@ -1,18 +1,33 @@
 .contact {
-  padding: 4rem 0;
-  background-color: var(--color-background);
-  text-align: center;
+	padding: 4rem 0;
+	background-color: var(--color-background);
+	text-align: center;
 }
 
 .contact h2 {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .contact p {
-  margin: 0.5rem 0;
+	margin: 0.5rem 0;
+}
+
+.imageWrapper {
+	overflow: hidden;
+	border-radius: 8px;
+	margin-bottom: 2rem;
+}
+
+.image {
+	width: 70%;
+	max-width: 800px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	object-fit: cover;
 }
 
 .info a {
-  color: var(--color-secondary);
-  font-weight: 600;
+	color: var(--color-secondary);
+	font-weight: 600;
 }
