@@ -17,10 +17,10 @@ function Hero() {
 			<div className="container">
 				<div className={styles.grid}>
 					<div className={styles.imageWrapper}>
-						<img src={heroImage} alt="Heiderød Farm fields" className={styles.image} />
+						<img src={heroImage} alt="Heiderød fields" className={styles.image} />
 					</div>
 					<div className={styles.text}>
-						<h1 className={styles.title}>Welcome to Heiderød Farm</h1>
+						<h1 className={styles.title}>Welcome to Heiderød</h1>
 						<p className={styles.subtitle}>
 							Experience the beauty of nature and fresh, organic produce straight from our fields.
 						</p>

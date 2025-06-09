@@ -6,7 +6,7 @@ function Header() {
 	return (
 		<header className={styles.header}>
 			<div className="container">
-				<div className={styles.logo}>Heiderød Farm</div>
+				<div className={styles.logo}>Heiderød</div>
 				<nav className={styles.nav}>
 					<Link to="/">Home</Link>
 					<Link to="/our-story">Our Story</Link>

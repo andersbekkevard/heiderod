@@ -21,7 +21,7 @@ function OurStoryPage() {
 						<h3>A New Beginning</h3>
 						<p>
 							Growing up, the family dreamed of a life close to nature. Inspired by their childhood memories,
-							they set out to make Heiderød Farm their forever home.
+							they set out to make Heiderød their forever home.
 						</p>
 					</div>
 				</div>
@@ -45,7 +45,7 @@ function OurStoryPage() {
 					<div className={styles.imageWrapper}>
 						<img
 							src={`${baseUrl}bilder2025/kjoekkenhage-2.jpg`}
-							alt="Heiderød Farm kitchen garden"
+							alt="Heiderød kitchen garden"
 							className={styles.image}
 						/>
 					</div>
@@ -61,7 +61,7 @@ function OurStoryPage() {
 					<div className={styles.text}>
 						<h3>Welcoming the Community</h3>
 						<p>
-							Today, Heiderød Farm thrives. They welcome visitors to share in their harvest, taste fresh produce,
+							Today, Heiderød thrives. They welcome visitors to share in their harvest, taste fresh produce,
 							and become part of the farm's ongoing story.
 						</p>
 					</div>
