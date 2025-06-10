@@ -1,17 +1,35 @@
 .intro {
-  padding: 4rem 0;
-  background-color: var(--color-background);
-  text-align: center;
+	padding: 4rem 0;
+	background-color: var(--color-background);
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.intro {
+		padding: 2rem 0;
+	}
 }
 
 .intro h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+	.intro h2 {
+		font-size: 1.6rem;
+	}
 }
 
 .intro p {
-  font-size: 1.125rem;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
+	font-size: 1.125rem;
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.intro p {
+		font-size: 1rem;
+	}
 }

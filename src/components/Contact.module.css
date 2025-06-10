@@ -4,12 +4,24 @@
 	text-align: center;
 }
 
+@media (max-width: 767px) {
+	.contact {
+		padding: 2rem 0;
+	}
+}
+
 .contact h2 {
 	margin-bottom: 1rem;
 }
 
 .contact p {
 	margin: 0.5rem 0;
+}
+
+@media (max-width: 767px) {
+	.contact p {
+		font-size: 0.95rem;
+	}
 }
 
 .imageWrapper {
@@ -25,6 +37,12 @@
 	display: block;
 	margin: 0 auto;
 	object-fit: cover;
+}
+
+@media (max-width: 767px) {
+	.image {
+		width: 90%;
+	}
 }
 
 .info a {

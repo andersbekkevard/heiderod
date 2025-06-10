@@ -3,6 +3,12 @@
 	padding: 4rem 0;
 }
 
+@media (max-width: 767px) {
+	.about {
+		padding: 2rem 0;
+	}
+}
+
 .content {
 	max-width: 800px;
 	margin: 0 auto;
@@ -15,6 +21,12 @@
 
 .content p {
 	line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+	.content p {
+		font-size: 0.95rem;
+	}
 }
 
 .imageWrapper {
@@ -30,4 +42,10 @@
 	display: block;
 	margin: 0 auto;
 	object-fit: cover;
+}
+
+@media (max-width: 767px) {
+	.image {
+		width: 90%;
+	}
 }

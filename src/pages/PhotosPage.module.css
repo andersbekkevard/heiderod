@@ -1,9 +1,21 @@
 .photos {
-  padding: 4rem 0;
-  background-color: var(--color-background);
+	padding: 4rem 0;
+	background-color: var(--color-background);
+}
+
+@media (max-width: 767px) {
+	.photos {
+		padding: 2rem 0;
+	}
 }
 
 .photos h2 {
-  text-align: center;
-  margin-bottom: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+	.photos h2 {
+		margin-bottom: 1.5rem;
+	}
 }
