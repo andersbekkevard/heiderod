@@ -30,13 +30,18 @@
 
 @media (max-width: 767px) {
 	.block {
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.block:last-child {
+		margin-bottom: 1rem;
 	}
 }
 
 .imageWrapper {
 	overflow: hidden;
 	border-radius: 8px;
+	width: 100%;
 }
 
 .image {
@@ -56,6 +61,16 @@
 	.block {
 		grid-template-columns: 1fr;
 		text-align: center;
+		gap: 1rem;
+	}
+
+	/* Ensure consistent mobile order: image first, then text */
+	.block .imageWrapper {
+		order: 1;
+	}
+
+	.block .text {
+		order: 2;
 	}
 }
 
@@ -66,5 +81,17 @@
 
 	.text p {
 		font-size: 0.95rem;
+		line-height: 1.5;
+	}
+
+	.text h3 {
+		font-size: 1.4rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.image {
+		max-height: 250px;
+		object-fit: cover;
+		width: 100%;
 	}
 }
