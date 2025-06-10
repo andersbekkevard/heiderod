@@ -59,18 +59,19 @@
 
 @media (max-width: 768px) {
 	.block {
-		grid-template-columns: 1fr;
+		display: flex;
+		flex-direction: column;
 		text-align: center;
 		gap: 1rem;
 	}
 
-	/* Ensure consistent mobile order: image first, then text */
+	/* Force ALL images to appear first on mobile, regardless of HTML order */
 	.block .imageWrapper {
-		order: 1;
+		order: -1;
 	}
 
 	.block .text {
-		order: 2;
+		order: 1;
 	}
 }
 

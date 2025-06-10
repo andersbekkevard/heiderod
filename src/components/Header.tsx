@@ -12,7 +12,7 @@ function Header() {
 					<Link to="/our-story">Our Story</Link>
 					<Link to="/shop">Shop</Link>
 					<Link to="/photos">Photos</Link>
-					<Link to="/about">About</Link>
+					{/* <Link to="/about">About</Link> */}
 					<Link to="/contact">Contact</Link>
 				</nav>
 			</div>
