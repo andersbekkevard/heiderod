@@ -24,7 +24,7 @@ function Hero() {
 						<p className={styles.subtitle}>
 							Experience the beauty of nature and fresh, organic produce straight from our fields.
 						</p>
-						<Link to="/about" className={styles.button}>
+						<Link to="/our-story" className={styles.button}>
 							Learn More
 						</Link>
 					</div>
