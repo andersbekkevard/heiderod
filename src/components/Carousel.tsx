@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styles from './Carousel.module.css';
+import React, { useState } from "react";
+import styles from "./Carousel.module.css";
 
 interface Photo {
   src: string;
@@ -27,7 +27,7 @@ const Carousel: React.FC<CarouselProps> = ({ photos }) => {
       <button
         className={`${styles.arrow} ${styles.left}`}
         onClick={prevSlide}
-        aria-label="Previous slide"
+        aria-label="Forrige slide"
       >
         &#10094;
       </button>
@@ -42,7 +42,7 @@ const Carousel: React.FC<CarouselProps> = ({ photos }) => {
       <button
         className={`${styles.arrow} ${styles.right}`}
         onClick={nextSlide}
-        aria-label="Next slide"
+        aria-label="Neste slide"
       >
         &#10095;
       </button>

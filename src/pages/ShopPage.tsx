@@ -1,23 +1,22 @@
-import React from 'react';
-import styles from './ShopPage.module.css';
+import styles from "./ShopPage.module.css";
 
 const products = [
-  { id: 'eggs', name: 'Eggs' },
-  { id: 'rhubarb', name: 'Rhubarb' },
-  { id: 'apples', name: 'Apples' },
-  { id: 'potatoes', name: 'Potatoes' },
+  { id: "eggs", name: "Egg" },
+  { id: "rhubarb", name: "Rabarbra" },
+  { id: "apples", name: "Epler" },
+  { id: "potatoes", name: "Poteter" },
 ];
 
 function ShopPage() {
   return (
     <section className={styles.shop}>
       <div className="container">
-        <h2>Shop Our Products</h2>
+        <h2>Kjøp våre produkter</h2>
         <div className={styles.products}>
           {products.map((product) => (
             <div key={product.id} className={styles.productCard}>
               <h3>{product.name}</h3>
-              <button>Buy Now</button>
+              <button>Kjøp nå</button>
             </div>
           ))}
         </div>
