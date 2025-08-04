@@ -1,4 +1,5 @@
 import styles from "./Contact.module.css";
+import { getText } from "../utils/textManager";
 
 function Contact() {
   const baseUrl = import.meta.env.BASE_URL;
@@ -8,18 +9,18 @@ function Contact() {
         <div className={styles.imageWrapper}>
           <img
             src={`${baseUrl}bilder2025/ved.jpg`}
-            alt="Vedhogst"
+            alt={getText("contact.imageAlt")}
             className={styles.image}
           />
         </div>
-        <h2>Kontakt oss</h2>
-        <p>Har du spørsmål eller vil besøke oss? Ta kontakt!</p>
+        <h2>{getText("contact.title")}</h2>
+        <p>{getText("contact.description")}</p>
         <p className={styles.info}>
           E-post:{" "}
-          <a href="mailto:info@heiderodfarm.com">info@heiderodfarm.com</a>
+          <a href={`mailto:${getText("contact.email")}`}>{getText("contact.email")}</a>
         </p>
         <p className={styles.info}>
-          Telefon: <a href="tel:+1234567890">+1 (234) 567-890</a>
+          Telefon: <a href={`tel:${getText("contact.phone").replace(/\s+/g, '')}`}>{getText("contact.phone")}</a>
         </p>
       </div>
     </section>

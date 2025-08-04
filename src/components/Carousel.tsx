@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Carousel.module.css";
+import { getText } from "../utils/textManager";
 
 interface Photo {
   src: string;
@@ -27,7 +28,7 @@ const Carousel: React.FC<CarouselProps> = ({ photos }) => {
       <button
         className={`${styles.arrow} ${styles.left}`}
         onClick={prevSlide}
-        aria-label="Forrige slide"
+        aria-label={getText("carousel.previous")}
       >
         &#10094;
       </button>
@@ -42,7 +43,7 @@ const Carousel: React.FC<CarouselProps> = ({ photos }) => {
       <button
         className={`${styles.arrow} ${styles.right}`}
         onClick={nextSlide}
-        aria-label="Neste slide"
+        aria-label={getText("carousel.next")}
       >
         &#10095;
       </button>

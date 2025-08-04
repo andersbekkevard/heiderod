@@ -1,0 +1,96 @@
+{
+  "=== NAVIGASJON ===": "",
+  "navigation": {
+    "logo": "Heiderød",
+    "home": "Hjem",
+    "ourStory": "Vår historie",
+    "shop": "Butikk",
+    "photos": "Bilder",
+    "contact": "Kontakt"
+  },
+  "=== FORSIDE ===": "",
+  "hero": {
+    "title": "Velkommen til Heiderød",
+    "subtitle": "Opplev naturens skjønnhet og ferske, økologiske produkter rett fra våre åkrer.",
+    "button": "Les mer",
+    "imageAlt": "Heiderød åkrer"
+  },
+  "about": {
+    "title": "Om vår gård",
+    "description": "Heiderød er en familieeid gård dedikert til bærekraftig landbruk og ferske, økologiske produkter. Innbakt i hjertet av landsbygda tilbyr vi et mangfold av sesongbaserte frukter, grønnsaker og håndlagde produkter direkte fra våre åkrer til ditt bord.",
+    "imageAlt": "Heiderød kjøkkenhage"
+  },
+  "homepage": {
+    "intro": {
+      "title": "Hva vi gjør",
+      "description": "Oppdag de rike smakene fra våre lokalt dyrkede produkter og håndlagde varer. Fra våre åkrer til ditt bord er vi forpliktet til bærekraftig landbruk og fremragende kvalitet."
+    }
+  },
+  "=== VÅR HISTORIE ===": "",
+  "ourStory": {
+    "title": "Vår historie",
+    "newBeginning": {
+      "title": "En ny begynnelse",
+      "description": "Da de vokste opp, drømte familien om et liv nær naturen. Inspirert av barndomsminnene satte de ut for å gjøre Heiderød til sitt evige hjem.",
+      "imageAlt": "Bilde av gården fra steingjerdet"
+    },
+    "findingFarm": {
+      "title": "Å finne gården",
+      "description": "I 2015 oppdaget de det gamle gårdsbygget innbakt mellom bølgende åser. Fasinert av sjarmen og historien visste de at dette var hvor deres neste kapittel skulle begynne.",
+      "imageAlt": "Oppdyrkede åkrer og plantet kjøkkenhage"
+    },
+    "rebuilding": {
+      "title": "Gjenoppbygging og planting",
+      "description": "Med lidenskap og utholdenhet restaurerte de den gamle låven, reparerte gårdsbygget og dyrket opp åkrene. Hvert frø som ble plantet var et løfte om gårdenes fremtid.",
+      "imageAlt": "Heiderød kjøkkenhage"
+    },
+    "community": {
+      "title": "Velkommen til samfunnet",
+      "description": "I dag blomstrer Heiderød. De ønsker besøkende velkommen til å dele i høsten, smake ferske produkter, og bli del av gårdenes pågående historie.",
+      "imageAlt": "Samfunnet nyter gårdenes høst"
+    }
+  },
+  "=== BUTIKK ===": "",
+  "shop": {
+    "title": "Kjøp våre produkter",
+    "buyButton": "Kjøp nå",
+    "products": {
+      "eggs": "Egg",
+      "rhubarb": "Rabarbra",
+      "apples": "Epler",
+      "potatoes": "Poteter"
+    }
+  },
+  "=== BILDER ===": "",
+  "photos": {
+    "title": "Bilder",
+    "descriptions": {
+      "blomst1": "Levende nærbilde av blomstrende blomster",
+      "robert": "Foto: Jan Robert Løwengreen",
+      "eplekart": "Kunstnerisk luftbilde av eplehage",
+      "kirsebaerInne": "Fint kirsebær utstilt innendørs",
+      "kongle": "Rustikk furukongle som hviler på tre",
+      "laaveVinter": "Fredelig vinterscene med låve",
+      "skudd": "Ferske grønne skudd som stiger opp fra jorden",
+      "steingjerde": "Solbelyst steingjerde i beitemarken"
+    }
+  },
+  "carousel": {
+    "previous": "Forrige slide",
+    "next": "Neste slide"
+  },
+  "=== KONTAKT ===": "",
+  "contact": {
+    "title": "Kontakt oss",
+    "description": "Har du spørsmål eller vil besøke oss? Ta kontakt!",
+    "email": "hilde.bekkevard@gmail.com",
+    "phone": "+47 920 32 092",
+    "imageAlt": "Vedhogst"
+  },
+  "=== FOOTER ===": "",
+  "footer": {
+    "email": "hilde.bekkevard@gmail.com",
+    "phone": "+47 920 32 092",
+    "copyright": "Alle rettigheter forbeholdt."
+  }
+}

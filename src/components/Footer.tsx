@@ -1,15 +1,18 @@
 import styles from "./Footer.module.css";
+import { getText } from "../utils/textManager";
 
 function Footer() {
   return (
     <footer className={styles.footer}>
       <div className="container">
         <p className={styles.contact}>
-          <a href="mailto:info@heiderodfarm.com">info@heiderodfarm.com</a> |{" "}
-          <a href="tel:+1234567890">+1 (234) 567-890</a>
+          <a href={`mailto:${getText("footer.email")}`}>
+            {getText("footer.email")}
+          </a>{" "}
+          | <a href={`tel:${getText("footer.phone").replace(/\s+/g, '')}`}>{getText("footer.phone")}</a>
         </p>
         <p>
-          © {new Date().getFullYear()} Heiderød. Alle rettigheter forbeholdt.
+          © {new Date().getFullYear()} {getText("navigation.logo")}. {getText("footer.copyright")}
         </p>
       </div>
     </footer>

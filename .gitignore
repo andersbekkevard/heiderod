@@ -1,5 +1,19 @@
 node_modules/
+package-lock.json
 dist/
 .env
+.env.local
+.env.production
 .vscode/
 .DS_Store
+
+# Google credentials
+google-credentials.json
+client_secret*.json
+token.json
+*.json.key
+*service-account*.json
+heiderod-*.json
+
+# Content backups
+src/content/texts.backup.*.json

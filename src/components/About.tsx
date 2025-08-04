@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import { getText } from "../utils/textManager";
 
 function About() {
   const baseUrl = import.meta.env.BASE_URL;
@@ -8,17 +9,14 @@ function About() {
         <div className={styles.imageWrapper}>
           <img
             src={`${baseUrl}bilder2025/blomst-2-closeup.jpg`}
-            alt="Heiderød kjøkkenhage"
+            alt={getText("about.imageAlt")}
             className={styles.image}
           />
         </div>
         <div className={styles.content}>
-          <h2>Om vår gård</h2>
+          <h2>{getText("about.title")}</h2>
           <p>
-            Heiderød er en familieeid gård dedikert til bærekraftig landbruk og
-            ferske, økologiske produkter. Innbakt i hjertet av landsbygda tilbyr
-            vi et mangfold av sesongbaserte frukter, grønnsaker og håndlagde
-            produkter direkte fra våre åkrer til ditt bord.
+            {getText("about.description")}
           </p>
         </div>
       </div>

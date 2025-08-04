@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Hero.module.css";
+import { getText } from "../utils/textManager";
 
 function Hero() {
   const baseUrl = import.meta.env.BASE_URL;
@@ -18,18 +19,17 @@ function Hero() {
           <div className={styles.imageWrapper}>
             <img
               src={heroImage}
-              alt="Heiderød åkrer"
+              alt={getText("hero.imageAlt")}
               className={styles.image}
             />
           </div>
           <div className={styles.text}>
-            <h1 className={styles.title}>Velkommen til Heiderød</h1>
+            <h1 className={styles.title}>{getText("hero.title")}</h1>
             <p className={styles.subtitle}>
-              Opplev naturens skjønnhet og ferske, økologiske produkter rett fra
-              våre åkrer.
+              {getText("hero.subtitle")}
             </p>
             <Link to="/our-story" className={styles.button}>
-              Les mer
+              {getText("hero.button")}
             </Link>
           </div>
         </div>

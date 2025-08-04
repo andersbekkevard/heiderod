@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import styles from "./HomePage.module.css";
+import { getText } from "../utils/textManager";
 
 function HomePage() {
   return (
@@ -7,11 +8,9 @@ function HomePage() {
       <Hero />
       <section className={styles.intro}>
         <div className="container">
-          <h2>Hva vi gjør</h2>
+          <h2>{getText("homepage.intro.title")}</h2>
           <p>
-            Oppdag de rike smakene fra våre lokalt dyrkede produkter og
-            håndlagde varer. Fra våre åkrer til ditt bord er vi forpliktet til
-            bærekraftig landbruk og fremragende kvalitet.
+            {getText("homepage.intro.description")}
           </p>
         </div>
       </section>
